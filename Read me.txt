@@ -19,11 +19,12 @@ json파일 하나만 테스트 하기 위해서 입니다.
 ****** 안드로이드 스튜디오(자바) 관련 *******
 제가 건드렸던 class는 java - functions - [fitting , LineTaskAnalysis,main1] 입니다!
 
-LineTaskAnalysis: 다양한 
+LineTaskAnalysis: 다양한 신호처리 관련 함수 (BPF , PCA 등등)를 만들어놓은 class
+(제가 자체적으로 만든 것이니 수정하셔도 됩니다.)
 
-fitting : 
+fitting :  LineTaskAnalysis에 있는 함수를 사용해서 분석하고 fireBase에 데이터를 전송하는 class
 
 
-
-main1
+main1 : LineTaskAnalysis 와 fitting에서 만든 함수를 구동하는 main함수 - 직선 긋기용
+(cf. main은 나선 그리기용) 
 
